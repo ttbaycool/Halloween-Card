@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="icon" type="x-icon" href="ghost.ico">
+		<title>Happy Halloween!</title>
+		<link rel="stylesheet" href="style.css">
+		<script>
+			function button(){				document.getElementById("loc").innerHTML="Spider-man  <-- This one";
+			}
+			function alt(){
+				alert("It is a Ghost!");
+			}	
+		</script>
+	</head>
+	<body class="body">
+		<a href="index.html" class="link">Go Back</a>
+		<div class="card">
+		<h2>Happy Halloween!</h2>
+			
+		<p>This Halloween will be the best Halloween ever!</p>
+		<p>You should wear you best costume you have!</p>
+			<br> <h3>Top 5 Costumes</h3><ol><li>Witch</li><li>Ghost</li><li>Vampire</li><li id="loc">Spider-man</li><li>Dinosaur</li></ol>
+			<button onClick="button()">Guess Which is My  Favorite Then Click!</button>
+		</div>
+		<img class="imgL" src="ghost.gif" width="300">
+		<div class="ghost">
+		<p class="button">What is this?</p>
+		<button id="alert" onClick="alt()" style=margin-left:10px;>Answer then Click</button>
+			</div>
+	</body>	
+</html>
